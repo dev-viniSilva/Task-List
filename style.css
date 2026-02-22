@@ -95,7 +95,7 @@ body {
 }
 
 .done {
-    text-decoration: line-through var(--accent-orange) 6px;
-    
+    text-decoration: line-through var(--accent-orange) 12px;
+    color: var(--accent-orange);
 }
  
