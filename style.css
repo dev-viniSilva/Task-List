@@ -1,0 +1,95 @@
+body {
+    background-color: var(--ask-item-bg);
+    font-family: sans-serif;
+}
+
+:root {
+  /* Background color of the main container */
+  --bg-color: #1a222f; 
+
+  /* Color for the "TASK LIST" header and main button */
+  --accent-orange: #ff9800;
+
+  /* Color for the individual task items */
+  --ask-item-bg: #2a3443;
+
+  /* Color for the text within task items */
+  --text-color: #ffffff;
+
+  /* Color for the input field background */
+  --input-bg: #ffffff;
+}
+
+.task {
+    border: none;
+    border-radius: 6px;
+    background-color: var(--bg-color);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    margin-top: 8em;
+}
+
+.h2-name {
+    color: var(--accent-orange);
+    font-weight: 100;
+    text-align: center;
+}
+
+.input {
+    background-color: var(--input-bg);
+    border: none;
+    width: 70%;
+    height: 35px;
+    border-radius: 3px;
+    color: var(--task-item-bg);
+    padding-left: 10px;
+}
+
+.input::placeholder {
+    color: var(--task-item-bg);
+}
+
+.bt-add {
+    background-color: var(--accent-orange);
+    color: var(--text-color);
+    border: none;
+    border-radius: 3px;
+    width: 20%;
+    height: 35px;
+}
+
+.list {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 10px;
+    border-radius: 3px;
+    justify-content: space-between;
+    background-color: #2a3443;
+    padding-left: 10px;
+}
+
+.task-name {
+    color: var(--text-color);
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.done {
+    text-decoration: line-through var(--accent-orange) 2px;
+    
+}
+ 
