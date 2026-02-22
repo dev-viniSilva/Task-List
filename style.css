@@ -35,6 +35,8 @@ body {
 .top-section {
     text-align: start;
     display: flex;
+    align-items: stretch;
+    
 }
 
 .h2-name {
@@ -47,9 +49,10 @@ body {
     background-color: var(--input-bg);
     border: none;
     width: 70%;
-    height: 35px;
+    height: auto;
     color: var(--task-item-bg);
     padding-left: 10px;
+    padding: 10px;
 }
 
 .input::placeholder {
@@ -61,7 +64,8 @@ body {
     color: var(--text-color);
     border: none;
     width: 30%;
-    height: 37px;
+    height: auto;
+    padding: 10px;
 }
 
 .list {
