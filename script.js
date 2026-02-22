@@ -38,7 +38,9 @@ addTask.addEventListener("click", function() {
 
     checkmark.addEventListener("click", function() {
         // adiciona ou remove a classe .done no li
-        newItem.classList.toggle("done")
+        newTaskName.classList.remove("task-name")
+        newTaskName.classList.toggle("done")
+        
     })
 
     crossmark.addEventListener("click", function() {
