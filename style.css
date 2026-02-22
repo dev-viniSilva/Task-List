@@ -61,7 +61,7 @@ body {
     color: var(--text-color);
     border: none;
     width: 30%;
-    height: 37px;
+    height: 40px;
 }
 
 .list {
@@ -95,7 +95,7 @@ body {
 }
 
 .done {
-    text-decoration: line-through var(--accent-orange) 2px;
+    text-decoration: line-through var(--accent-orange) 6px;
     
 }
  
